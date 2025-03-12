@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://cdn.vectorstock.com/i/500p/39/36/seamless-pattern-pizza-vector-16013936.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #DC6C6C; 
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+.game-container {
+    width: 35%;
+    background-color: #5E0000;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pizza img {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    user-select: none;
+}
+
+.pizza img:hover {
+    transform: scale(1.2);
+}
+
+.pizza.clicked img {
+    transform: scale(1.5);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.game-container {
+    border-radius: 20px;
+}
